@@ -1,0 +1,797 @@
+{
+    "items":  [
+                  {
+                      "block_hash":  "0x3746c8c1e4fe057286134ddaea2906cd7718b01bb72fe2eb61af389705cee905",
+                      "block_number":  47280627,
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0xbB2d512778ed4E2C0EAac41eEFA8Dc9E14C12500",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "log_index":  0,
+                      "method":  "0xa9059cbb",
+                      "timestamp":  "2026-09-25T09:45:42.000000Z",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "token":  {
+                                    "address_hash":  "0x808456652fdb597867f38412077A9182bf77359F",
+                                    "circulating_market_cap":  null,
+                                    "circulating_supply":  null,
+                                    "decimals":  "6",
+                                    "exchange_rate":  null,
+                                    "holders_count":  "21806",
+                                    "icon_url":  null,
+                                    "name":  "EURC",
+                                    "reputation":  "ok",
+                                    "symbol":  "EURC",
+                                    "total_supply":  "14465447520550000",
+                                    "type":  "ERC-20",
+                                    "volume_24h":  null
+                                },
+                      "token_type":  "ERC-20",
+                      "total":  {
+                                    "decimals":  "6",
+                                    "value":  "9994"
+                                },
+                      "transaction_hash":  "0x4dbc98501d8926429679750743cedbc40b820b1e0ac4b324092f658af649b703",
+                      "type":  "token_transfer"
+                  },
+                  {
+                      "block_hash":  "0x73a132d6e47ff2491beb6b6d94ddf20d1acfd3839a1d4c0a05d2b78f06990d30",
+                      "block_number":  47280555,
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0xbB2d512778ed4E2C0EAac41eEFA8Dc9E14C12500",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "log_index":  0,
+                      "method":  "0xa9059cbb",
+                      "timestamp":  "2026-09-25T09:43:18.000000Z",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "token":  {
+                                    "address_hash":  "0x808456652fdb597867f38412077A9182bf77359F",
+                                    "circulating_market_cap":  null,
+                                    "circulating_supply":  null,
+                                    "decimals":  "6",
+                                    "exchange_rate":  null,
+                                    "holders_count":  "21806",
+                                    "icon_url":  null,
+                                    "name":  "EURC",
+                                    "reputation":  "ok",
+                                    "symbol":  "EURC",
+                                    "total_supply":  "14465447520550000",
+                                    "type":  "ERC-20",
+                                    "volume_24h":  null
+                                },
+                      "token_type":  "ERC-20",
+                      "total":  {
+                                    "decimals":  "6",
+                                    "value":  "191"
+                                },
+                      "transaction_hash":  "0x0f2bf67d5c06a19531fb3b267ad8360b1bc5b4a1370cd97235547ed836e70f09",
+                      "type":  "token_transfer"
+                  },
+                  {
+                      "block_hash":  "0xa56114d4f1fc4ac769192ea721fe1c05d171d08fe9fe536b05f9ca0abdc9d5fa",
+                      "block_number":  47244694,
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x4281eCF07378Ee595C564a59048801330f3084eE",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "log_index":  39,
+                      "method":  "0xa9059cbb",
+                      "timestamp":  "2026-09-24T13:47:56.000000Z",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "token":  {
+                                    "address_hash":  "0xE4aB69C077896252FAFBD49EFD26B5D171A32410",
+                                    "circulating_market_cap":  null,
+                                    "circulating_supply":  null,
+                                    "decimals":  "18",
+                                    "exchange_rate":  null,
+                                    "holders_count":  "57529",
+                                    "icon_url":  null,
+                                    "name":  "ChainLink Token",
+                                    "reputation":  "ok",
+                                    "symbol":  "LINK",
+                                    "total_supply":  "10011511695487607146457673",
+                                    "type":  "ERC-20",
+                                    "volume_24h":  null
+                                },
+                      "token_type":  "ERC-20",
+                      "total":  {
+                                    "decimals":  "18",
+                                    "value":  "25000000000000000000"
+                                },
+                      "transaction_hash":  "0x2124387f01a723e42d1bb346a74c134f81c4bb8d5983142e6b97e6254c35c5ad",
+                      "type":  "token_transfer"
+                  },
+                  {
+                      "block_hash":  "0x95843bd12043c29b254d97dd72cc31dc590ee18697598dd9a3935ddb48d94c9c",
+                      "block_number":  45468802,
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x1c26B1021CaFC79055422aE3e7409F431F5224Ad",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "log_index":  0,
+                      "method":  "0xa9059cbb",
+                      "timestamp":  "2026-08-14T11:11:32.000000Z",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "token":  {
+                                    "address_hash":  "0x6b8bc0f58E261aD2CCB46c8Af25dC283Be3dD999",
+                                    "circulating_market_cap":  null,
+                                    "circulating_supply":  null,
+                                    "decimals":  "18",
+                                    "exchange_rate":  null,
+                                    "holders_count":  "63",
+                                    "icon_url":  null,
+                                    "name":  "USDC YC",
+                                    "reputation":  "ok",
+                                    "symbol":  "USDC_YC",
+                                    "total_supply":  "100000000000000000000000000",
+                                    "type":  "ERC-20",
+                                    "volume_24h":  null
+                                },
+                      "token_type":  "ERC-20",
+                      "total":  {
+                                    "decimals":  "18",
+                                    "value":  "2200000000000000000"
+                                },
+                      "transaction_hash":  "0x79832d350c03735fe1104467132e506b4b622b4370c95165c5bae13bf06be62d",
+                      "type":  "token_transfer"
+                  },
+                  {
+                      "block_hash":  "0x5d285d967e9674069ffe059deed4e68cad0a0f484e1fa2981225d9a8e2a0df35",
+                      "block_number":  45341008,
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x1c26B1021CaFC79055422aE3e7409F431F5224Ad",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "log_index":  86,
+                      "method":  "0xa9059cbb",
+                      "timestamp":  "2026-08-11T12:11:44.000000Z",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "token":  {
+                                    "address_hash":  "0x6b8bc0f58E261aD2CCB46c8Af25dC283Be3dD999",
+                                    "circulating_market_cap":  null,
+                                    "circulating_supply":  null,
+                                    "decimals":  "18",
+                                    "exchange_rate":  null,
+                                    "holders_count":  "63",
+                                    "icon_url":  null,
+                                    "name":  "USDC YC",
+                                    "reputation":  "ok",
+                                    "symbol":  "USDC_YC",
+                                    "total_supply":  "100000000000000000000000000",
+                                    "type":  "ERC-20",
+                                    "volume_24h":  null
+                                },
+                      "token_type":  "ERC-20",
+                      "total":  {
+                                    "decimals":  "18",
+                                    "value":  "2000000000000000000"
+                                },
+                      "transaction_hash":  "0x0af96e513b4aba3476271547b43281eb74affc218a941d7183047d5715c9e191",
+                      "type":  "token_transfer"
+                  },
+                  {
+                      "block_hash":  "0x37617efe90b963640ca4aa46b81e7d34f693d6ac9147e1cafa9218641125a710",
+                      "block_number":  45295627,
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0xB7996436EBecE0d3C73B8b4e2Bfc14AEE474D641",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "log_index":  2,
+                      "method":  "0xa9059cbb",
+                      "timestamp":  "2026-08-10T10:59:02.000000Z",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "token":  {
+                                    "address_hash":  "0x808456652fdb597867f38412077A9182bf77359F",
+                                    "circulating_market_cap":  null,
+                                    "circulating_supply":  null,
+                                    "decimals":  "6",
+                                    "exchange_rate":  null,
+                                    "holders_count":  "21806",
+                                    "icon_url":  null,
+                                    "name":  "EURC",
+                                    "reputation":  "ok",
+                                    "symbol":  "EURC",
+                                    "total_supply":  "14465447520550000",
+                                    "type":  "ERC-20",
+                                    "volume_24h":  null
+                                },
+                      "token_type":  "ERC-20",
+                      "total":  {
+                                    "decimals":  "6",
+                                    "value":  "10000"
+                                },
+                      "transaction_hash":  "0x7434d9cd5b52446e38bf97804c23622f8fa3e59753f666e4fac914fec11ae95f",
+                      "type":  "token_transfer"
+                  },
+                  {
+                      "block_hash":  "0x99b49a34f26ddb6b04b310671968a6899011ab756ab5285df9f9651a98bba195",
+                      "block_number":  45213955,
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0xFaEc9cDC3Ef75713b48f46057B98BA04885e3391",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "log_index":  230,
+                      "method":  "0xa9059cbb",
+                      "timestamp":  "2026-08-08T13:36:38.000000Z",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "token":  {
+                                    "address_hash":  "0x808456652fdb597867f38412077A9182bf77359F",
+                                    "circulating_market_cap":  null,
+                                    "circulating_supply":  null,
+                                    "decimals":  "6",
+                                    "exchange_rate":  null,
+                                    "holders_count":  "21806",
+                                    "icon_url":  null,
+                                    "name":  "EURC",
+                                    "reputation":  "ok",
+                                    "symbol":  "EURC",
+                                    "total_supply":  "14465447520550000",
+                                    "type":  "ERC-20",
+                                    "volume_24h":  null
+                                },
+                      "token_type":  "ERC-20",
+                      "total":  {
+                                    "decimals":  "6",
+                                    "value":  "20000000"
+                                },
+                      "transaction_hash":  "0x9f36a569366e8aa5ee893ea1762683fe23738ac2042edc2576c3471f5191bfb9",
+                      "type":  "token_transfer"
+                  },
+                  {
+                      "block_hash":  "0x43bc1650ac1feab6e789dcb42b44289f28e34bcc1291cdc82f1d3867f23567f4",
+                      "block_number":  45018758,
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x5790714B88860D8e21073b0924689C7C5879D71D",
+                                   "implementations":  [
+                                                           {
+                                                               "address_hash":  "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+                                                               "name":  null
+                                                           }
+                                                       ],
+                                   "is_contract":  true,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  "eip7702",
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "log_index":  90,
+                      "method":  "0xcef6d209",
+                      "timestamp":  "2026-08-04T01:10:04.000000Z",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "token":  {
+                                    "address_hash":  "0x54114591963CF60EF3aA63bEfD6eC263D98145a4",
+                                    "circulating_market_cap":  null,
+                                    "circulating_supply":  null,
+                                    "decimals":  "8",
+                                    "exchange_rate":  null,
+                                    "holders_count":  "1113",
+                                    "icon_url":  null,
+                                    "name":  "Wrapped BTC",
+                                    "reputation":  "ok",
+                                    "symbol":  "WBTC",
+                                    "total_supply":  "204553601000",
+                                    "type":  "ERC-20",
+                                    "volume_24h":  null
+                                },
+                      "token_type":  "ERC-20",
+                      "total":  {
+                                    "decimals":  "8",
+                                    "value":  "15857664"
+                                },
+                      "transaction_hash":  "0x47d97683567cd2cf7cf4fbd526db6c548ee07a8cb0bfec5ea04a7f76d0ea3e7f",
+                      "type":  "token_transfer"
+                  },
+                  {
+                      "block_hash":  "0xfdcf75933deb15351d5d3d3e7b444cfc4df1cd02082f85b86aaa4c4fb6dccd8c",
+                      "block_number":  44957289,
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0xEaA629fAa2e6338433F073FBBA54b33f6C5271C5",
+                                   "implementations":  [
+                                                           {
+                                                               "address_hash":  "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+                                                               "name":  "EIP7702StatelessDeleGator"
+                                                           }
+                                                       ],
+                                   "is_contract":  true,
+                                   "is_scam":  false,
+                                   "is_verified":  true,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  "eip7702",
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "log_index":  23,
+                      "method":  "0xcef6d209",
+                      "timestamp":  "2026-08-02T15:01:06.000000Z",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "token":  {
+                                    "address_hash":  "0x5DbFa80261B5D2b4A20cFAAE4e2a994040911393",
+                                    "circulating_market_cap":  null,
+                                    "circulating_supply":  null,
+                                    "decimals":  "6",
+                                    "exchange_rate":  null,
+                                    "holders_count":  "514",
+                                    "icon_url":  null,
+                                    "name":  "FHERC20 Confidential USDC",
+                                    "reputation":  "ok",
+                                    "symbol":  "eUSDC",
+                                    "total_supply":  "7984255700",
+                                    "type":  "ERC-7984",
+                                    "volume_24h":  null
+                                },
+                      "token_type":  "ERC-7984",
+                      "total":  {
+                                    "decimals":  "6",
+                                    "value":  null
+                                },
+                      "transaction_hash":  "0x1a861c6d236a977c7d4b0cbe711062d3faae3e09e98033b5ee89b8e4bf2fe035",
+                      "type":  "token_transfer"
+                  },
+                  {
+                      "block_hash":  "0xfdcf75933deb15351d5d3d3e7b444cfc4df1cd02082f85b86aaa4c4fb6dccd8c",
+                      "block_number":  44957289,
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0xEaA629fAa2e6338433F073FBBA54b33f6C5271C5",
+                                   "implementations":  [
+                                                           {
+                                                               "address_hash":  "0x63c0c19a282a1B52b07dD5a65b58948A07DAE32B",
+                                                               "name":  "EIP7702StatelessDeleGator"
+                                                           }
+                                                       ],
+                                   "is_contract":  true,
+                                   "is_scam":  false,
+                                   "is_verified":  true,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  "eip7702",
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "log_index":  22,
+                      "method":  "0xcef6d209",
+                      "timestamp":  "2026-08-02T15:01:06.000000Z",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "token":  {
+                                    "address_hash":  "0x5DbFa80261B5D2b4A20cFAAE4e2a994040911393",
+                                    "circulating_market_cap":  null,
+                                    "circulating_supply":  null,
+                                    "decimals":  "6",
+                                    "exchange_rate":  null,
+                                    "holders_count":  "514",
+                                    "icon_url":  null,
+                                    "name":  "FHERC20 Confidential USDC",
+                                    "reputation":  "ok",
+                                    "symbol":  "eUSDC",
+                                    "total_supply":  "7984255700",
+                                    "type":  "ERC-7984",
+                                    "volume_24h":  null
+                                },
+                      "token_type":  "ERC-20",
+                      "total":  {
+                                    "decimals":  "6",
+                                    "value":  "7984000100"
+                                },
+                      "transaction_hash":  "0x1a861c6d236a977c7d4b0cbe711062d3faae3e09e98033b5ee89b8e4bf2fe035",
+                      "type":  "token_transfer"
+                  }
+              ],
+    "next_page_params":  {
+                             "index":  1,
+                             "block_number":  37189908
+                         }
+}

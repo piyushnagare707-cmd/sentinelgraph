@@ -1,0 +1,35 @@
+{
+  "$comment": "Auditable scoring weights and parameters for SentinelGraph. score = sum(min(weight_i, heuristic_i)) and lives in [0, 100]. Change a weight here and the app + tests follow.",
+  "weights": {
+    "fanAsymmetry": 25,
+    "ageRisk": 20,
+    "honeypotTax": 25,
+    "deployerReuse": 15,
+    "approvalRisk": 15
+  },
+  "params": {
+    "maxTransfers": 200,
+    "maxNativeTx": 100,
+    "maxNodes": 60,
+    "maxEdges": 120,
+    "max2HopSeeds": 8,
+    "deployerInfoFetchLimit": 8,
+    "honeypotTaxThresholdPct": 10,
+    "honeypotMaxTaxPct": 50,
+    "honeypotMaxSideLegRatio": 0.3,
+    "deployerReuseFullAt": 5,
+    "unlimitedApprovalMinHex": "0x100000000000000000000000000000000",
+    "approvalBaseCap": 3,
+    "knownSpenderLabelFactor": 0.6,
+    "ageTiers": [
+      { "maxBlocks": 1000, "score": 20 },
+      { "maxBlocks": 10000, "score": 14 },
+      { "maxBlocks": 100000, "score": 8 },
+      { "maxBlocks": 1000000, "score": 4 }
+    ],
+    "recentCounterpartyWindowBlocks": 100000,
+    "recentCounterpartyWeight": 0.5,
+    "minFanDegree": 4,
+    "cacheTtlMs": 900000
+  }
+}

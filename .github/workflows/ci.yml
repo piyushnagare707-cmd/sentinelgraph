@@ -1,0 +1,36 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Unit tests + coverage thresholds
+        run: npm run coverage
+
+      - name: Production build
+        run: npm run build
+
+      # Live e2e (scripts/smoke.mjs) needs a running server plus Blockscout,
+      # Base Sepolia RPC and optionally an LLM key — run it locally with `npm run smoke`.

@@ -1,0 +1,1483 @@
+{
+    "items":  [
+                  {
+                      "priority_fee":  "430350000000",
+                      "raw_input":  "0xe3ee160e000000000000000000000000ff949e43a36c86ecec445b23dcf046a9d4e6760500000000000000000000000067b3e384365662fe3f23a86e9b1ba006062f3e0c00000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006abd17409687b81c4714477a8b398e5233dfe12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001c8a9ac22a17c2746a3812807c9328d2ac320533e4890f0e8f38e8efc44d6316372e6ea410c9565efd070b87ceb7284456a2b43638df48e97139d004cae9c7c480a161776a6364705f666163696c31000e0280218021802180218021802180218021",
+                      "is_pending_update":  false,
+                      "result":  "success",
+                      "hash":  "0x39f4a71c89be9ed3dca41af0dff6f87821ba111a4d202ba950529f950880b0c7",
+                      "max_fee_per_gas":  "30000000",
+                      "revert_reason":  null,
+                      "confirmation_duration":  [
+                                                    0,
+                                                    2000
+                                                ],
+                      "transaction_burnt_fee":  "430350000000",
+                      "type":  2,
+                      "token_transfers_overflow":  null,
+                      "confirmations":  1,
+                      "position":  16,
+                      "max_priority_fee_per_gas":  "5000000",
+                      "transaction_tag":  null,
+                      "created_contract":  null,
+                      "value":  "0",
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x772003A2E9c2cCC8af956870a37A66F64F8CEC38",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "gas_used":  "86070",
+                      "status":  "ok",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "authorization_list":  [
+
+                                             ],
+                      "method":  "transferWithAuthorization",
+                      "fee":  {
+                                  "type":  "actual",
+                                  "value":  "873595175163"
+                              },
+                      "gas_limit":  "95693",
+                      "gas_price":  "10000000",
+                      "decoded_input":  {
+                                            "method_call":  "transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+                                            "method_id":  "e3ee160e",
+                                            "parameters":  [
+                                                               {
+                                                                   "name":  "from",
+                                                                   "type":  "address",
+                                                                   "value":  "0xff949e43a36c86ecec445B23dcF046a9d4E67605"
+                                                               },
+                                                               {
+                                                                   "name":  "to",
+                                                                   "type":  "address",
+                                                                   "value":  "0x67B3E384365662fe3F23A86e9b1ba006062f3E0c"
+                                                               },
+                                                               {
+                                                                   "name":  "value",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1000"
+                                                               },
+                                                               {
+                                                                   "name":  "validAfter",
+                                                                   "type":  "uint256",
+                                                                   "value":  "0"
+                                                               },
+                                                               {
+                                                                   "name":  "validBefore",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1790777152"
+                                                               },
+                                                               {
+                                                                   "name":  "nonce",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x9687b81c4714477a8b398e5233dfe12500000000000000000000000000000000"
+                                                               },
+                                                               {
+                                                                   "name":  "v",
+                                                                   "type":  "uint8",
+                                                                   "value":  "28"
+                                                               },
+                                                               {
+                                                                   "name":  "r",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x8a9ac22a17c2746a3812807c9328d2ac320533e4890f0e8f38e8efc44d631637"
+                                                               },
+                                                               {
+                                                                   "name":  "s",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x2e6ea410c9565efd070b87ceb7284456a2b43638df48e97139d004cae9c7c480"
+                                                               }
+                                                           ]
+                                        },
+                      "fhe_operations_count":  0,
+                      "token_transfers":  null,
+                      "base_fee_per_gas":  "5000000",
+                      "timestamp":  "2026-09-30T13:05:54.000000Z",
+                      "nonce":  51811,
+                      "historic_exchange_rate":  null,
+                      "transaction_types":  [
+                                                "contract_call",
+                                                "token_transfer"
+                                            ],
+                      "exchange_rate":  null,
+                      "block_number":  47502633,
+                      "has_error_in_internal_transactions":  false
+                  },
+                  {
+                      "priority_fee":  "430350000000",
+                      "raw_input":  "0xe3ee160e000000000000000000000000ff949e43a36c86ecec445b23dcf046a9d4e6760500000000000000000000000067b3e384365662fe3f23a86e9b1ba006062f3e0c00000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006abd173fa55f23c680454272b005aa3bc32327ed00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001caeed7278067cbcfc378095490ab20c6565f80fec47c32b72dac6031d4d81b4ea6dc3f8c1b465f25a595fd9592d568a87d6b65b2a0373a7e10fbb050734e674dba161776a6364705f666163696c31000e0280218021802180218021802180218021",
+                      "is_pending_update":  false,
+                      "result":  "success",
+                      "hash":  "0x4e2304ecb8f6b54b1a8e40bf18b7b7a633971799ad0db1bb855bb9e387ff3ffe",
+                      "max_fee_per_gas":  "30000000",
+                      "revert_reason":  null,
+                      "confirmation_duration":  [
+                                                    0,
+                                                    2000
+                                                ],
+                      "transaction_burnt_fee":  "430350000000",
+                      "type":  2,
+                      "token_transfers_overflow":  null,
+                      "confirmations":  1,
+                      "position":  8,
+                      "max_priority_fee_per_gas":  "5000000",
+                      "transaction_tag":  null,
+                      "created_contract":  null,
+                      "value":  "0",
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0xCA5e87f82B3FA093800e6ad67D621A427D79c70D",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "gas_used":  "86070",
+                      "status":  "ok",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "authorization_list":  [
+
+                                             ],
+                      "method":  "transferWithAuthorization",
+                      "fee":  {
+                                  "type":  "actual",
+                                  "value":  "873595175163"
+                              },
+                      "gas_limit":  "95693",
+                      "gas_price":  "10000000",
+                      "decoded_input":  {
+                                            "method_call":  "transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+                                            "method_id":  "e3ee160e",
+                                            "parameters":  [
+                                                               {
+                                                                   "name":  "from",
+                                                                   "type":  "address",
+                                                                   "value":  "0xff949e43a36c86ecec445B23dcF046a9d4E67605"
+                                                               },
+                                                               {
+                                                                   "name":  "to",
+                                                                   "type":  "address",
+                                                                   "value":  "0x67B3E384365662fe3F23A86e9b1ba006062f3E0c"
+                                                               },
+                                                               {
+                                                                   "name":  "value",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1000"
+                                                               },
+                                                               {
+                                                                   "name":  "validAfter",
+                                                                   "type":  "uint256",
+                                                                   "value":  "0"
+                                                               },
+                                                               {
+                                                                   "name":  "validBefore",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1790777151"
+                                                               },
+                                                               {
+                                                                   "name":  "nonce",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xa55f23c680454272b005aa3bc32327ed00000000000000000000000000000000"
+                                                               },
+                                                               {
+                                                                   "name":  "v",
+                                                                   "type":  "uint8",
+                                                                   "value":  "28"
+                                                               },
+                                                               {
+                                                                   "name":  "r",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xaeed7278067cbcfc378095490ab20c6565f80fec47c32b72dac6031d4d81b4ea"
+                                                               },
+                                                               {
+                                                                   "name":  "s",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x6dc3f8c1b465f25a595fd9592d568a87d6b65b2a0373a7e10fbb050734e674db"
+                                                               }
+                                                           ]
+                                        },
+                      "fhe_operations_count":  0,
+                      "token_transfers":  null,
+                      "base_fee_per_gas":  "5000000",
+                      "timestamp":  "2026-09-30T13:05:54.000000Z",
+                      "nonce":  57091,
+                      "historic_exchange_rate":  null,
+                      "transaction_types":  [
+                                                "contract_call",
+                                                "token_transfer"
+                                            ],
+                      "exchange_rate":  null,
+                      "block_number":  47502633,
+                      "has_error_in_internal_transactions":  false
+                  },
+                  {
+                      "priority_fee":  "430350000000",
+                      "raw_input":  "0xe3ee160e0000000000000000000000000f1e5f444e54cf6fc4171b5d7cbf37a1d78672e0000000000000000000000000df3941c38230171d711c3ed715c59fef417964b900000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006abd173aac2b965ee6ee46ec95450cfdf141adfc00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001cf351afc2d143b4275443603df2ee7e9deeeddef80a5ccd16f8f4508cce49a6ae482697dcb40993dcbf7a29aed89b7cf11bc1c912cf3f3a1c494dcd28d03a8231a161776a6364705f666163696c31000e0280218021802180218021802180218021",
+                      "is_pending_update":  false,
+                      "result":  "success",
+                      "hash":  "0xcc0aa919faa5e7d56714de18c64088aad6e8a45ad8146c53f10133b4098dce1f",
+                      "max_fee_per_gas":  "30000000",
+                      "revert_reason":  null,
+                      "confirmation_duration":  [
+                                                    0,
+                                                    2000
+                                                ],
+                      "transaction_burnt_fee":  "430350000000",
+                      "type":  2,
+                      "token_transfers_overflow":  null,
+                      "confirmations":  4,
+                      "position":  6,
+                      "max_priority_fee_per_gas":  "5000000",
+                      "transaction_tag":  null,
+                      "created_contract":  null,
+                      "value":  "0",
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0xE72f0Af4CF41356d433723547F1412cA27FBB1B8",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "gas_used":  "86070",
+                      "status":  "ok",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "authorization_list":  [
+
+                                             ],
+                      "method":  "transferWithAuthorization",
+                      "fee":  {
+                                  "type":  "actual",
+                                  "value":  "873595175163"
+                              },
+                      "gas_limit":  "95693",
+                      "gas_price":  "10000000",
+                      "decoded_input":  {
+                                            "method_call":  "transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+                                            "method_id":  "e3ee160e",
+                                            "parameters":  [
+                                                               {
+                                                                   "name":  "from",
+                                                                   "type":  "address",
+                                                                   "value":  "0x0f1E5F444E54cf6fc4171B5D7Cbf37A1D78672E0"
+                                                               },
+                                                               {
+                                                                   "name":  "to",
+                                                                   "type":  "address",
+                                                                   "value":  "0xdf3941C38230171D711c3eD715C59Fef417964b9"
+                                                               },
+                                                               {
+                                                                   "name":  "value",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1000"
+                                                               },
+                                                               {
+                                                                   "name":  "validAfter",
+                                                                   "type":  "uint256",
+                                                                   "value":  "0"
+                                                               },
+                                                               {
+                                                                   "name":  "validBefore",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1790777146"
+                                                               },
+                                                               {
+                                                                   "name":  "nonce",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xac2b965ee6ee46ec95450cfdf141adfc00000000000000000000000000000000"
+                                                               },
+                                                               {
+                                                                   "name":  "v",
+                                                                   "type":  "uint8",
+                                                                   "value":  "28"
+                                                               },
+                                                               {
+                                                                   "name":  "r",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xf351afc2d143b4275443603df2ee7e9deeeddef80a5ccd16f8f4508cce49a6ae"
+                                                               },
+                                                               {
+                                                                   "name":  "s",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x482697dcb40993dcbf7a29aed89b7cf11bc1c912cf3f3a1c494dcd28d03a8231"
+                                                               }
+                                                           ]
+                                        },
+                      "fhe_operations_count":  0,
+                      "token_transfers":  null,
+                      "base_fee_per_gas":  "5000000",
+                      "timestamp":  "2026-09-30T13:05:48.000000Z",
+                      "nonce":  57596,
+                      "historic_exchange_rate":  null,
+                      "transaction_types":  [
+                                                "contract_call",
+                                                "token_transfer"
+                                            ],
+                      "exchange_rate":  null,
+                      "block_number":  47502630,
+                      "has_error_in_internal_transactions":  false
+                  },
+                  {
+                      "priority_fee":  "430250000000",
+                      "raw_input":  "0xe3ee160e000000000000000000000000ff949e43a36c86ecec445b23dcf046a9d4e6760500000000000000000000000067b3e384365662fe3f23a86e9b1ba006062f3e0c00000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006abd17376310059f31194b1b8fa55fbf34ca691600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001b05542624f4d2d94a3d054b9cd7751125eea79120818246f6746416e0893ea28d1870664bbb79416e8ae232a4e4c4f95571c34972995d172baaed2e2e1cb5d0b4a161776a6364705f666163696c31000e0280218021802180218021802180218021",
+                      "is_pending_update":  false,
+                      "result":  "success",
+                      "hash":  "0x8d47d4a3b50bb415adebf8028cf584cd3e11ca37360ccf16ce09cc49b078924e",
+                      "max_fee_per_gas":  "30000000",
+                      "revert_reason":  null,
+                      "confirmation_duration":  [
+                                                    0,
+                                                    2000
+                                                ],
+                      "transaction_burnt_fee":  "430250000000",
+                      "type":  2,
+                      "token_transfers_overflow":  null,
+                      "confirmations":  4,
+                      "position":  2,
+                      "max_priority_fee_per_gas":  "5000000",
+                      "transaction_tag":  null,
+                      "created_contract":  null,
+                      "value":  "0",
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x68A96F41ff1e9F2E7b591A931A4AD224e7C07863",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "gas_used":  "86050",
+                      "status":  "ok",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "authorization_list":  [
+
+                                             ],
+                      "method":  "transferWithAuthorization",
+                      "fee":  {
+                                  "type":  "actual",
+                                  "value":  "873445529094"
+                              },
+                      "gas_limit":  "95671",
+                      "gas_price":  "10000000",
+                      "decoded_input":  {
+                                            "method_call":  "transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+                                            "method_id":  "e3ee160e",
+                                            "parameters":  [
+                                                               {
+                                                                   "name":  "from",
+                                                                   "type":  "address",
+                                                                   "value":  "0xff949e43a36c86ecec445B23dcF046a9d4E67605"
+                                                               },
+                                                               {
+                                                                   "name":  "to",
+                                                                   "type":  "address",
+                                                                   "value":  "0x67B3E384365662fe3F23A86e9b1ba006062f3E0c"
+                                                               },
+                                                               {
+                                                                   "name":  "value",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1000"
+                                                               },
+                                                               {
+                                                                   "name":  "validAfter",
+                                                                   "type":  "uint256",
+                                                                   "value":  "0"
+                                                               },
+                                                               {
+                                                                   "name":  "validBefore",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1790777143"
+                                                               },
+                                                               {
+                                                                   "name":  "nonce",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x6310059f31194b1b8fa55fbf34ca691600000000000000000000000000000000"
+                                                               },
+                                                               {
+                                                                   "name":  "v",
+                                                                   "type":  "uint8",
+                                                                   "value":  "27"
+                                                               },
+                                                               {
+                                                                   "name":  "r",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x05542624f4d2d94a3d054b9cd7751125eea79120818246f6746416e0893ea28d"
+                                                               },
+                                                               {
+                                                                   "name":  "s",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x1870664bbb79416e8ae232a4e4c4f95571c34972995d172baaed2e2e1cb5d0b4"
+                                                               }
+                                                           ]
+                                        },
+                      "fhe_operations_count":  0,
+                      "token_transfers":  null,
+                      "base_fee_per_gas":  "5000000",
+                      "timestamp":  "2026-09-30T13:05:48.000000Z",
+                      "nonce":  96861,
+                      "historic_exchange_rate":  null,
+                      "transaction_types":  [
+                                                "contract_call",
+                                                "token_transfer"
+                                            ],
+                      "exchange_rate":  null,
+                      "block_number":  47502630,
+                      "has_error_in_internal_transactions":  false
+                  },
+                  {
+                      "priority_fee":  "430250000000",
+                      "raw_input":  "0xe3ee160e000000000000000000000000ff949e43a36c86ecec445b23dcf046a9d4e6760500000000000000000000000067b3e384365662fe3f23a86e9b1ba006062f3e0c00000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006abd1738f1e84319d2034ed1be0449e16d408fbd00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001bd7dc2eb58014a869bc1ccb182645799c88122441de52504ca3bc69d55e48730349b2ef98dd3e630374bc9ee996ed69486c0cfeb5b853eff836313bee8e76d308a161776a6364705f666163696c31000e0280218021802180218021802180218021",
+                      "is_pending_update":  false,
+                      "result":  "success",
+                      "hash":  "0x87ae015d4ab2fd6d8ebcbc2463b2e55477b8cd9d7b9805e43bdb50d4669f4cc4",
+                      "max_fee_per_gas":  "30000000",
+                      "revert_reason":  null,
+                      "confirmation_duration":  [
+                                                    0,
+                                                    2000
+                                                ],
+                      "transaction_burnt_fee":  "430250000000",
+                      "type":  2,
+                      "token_transfers_overflow":  null,
+                      "confirmations":  5,
+                      "position":  15,
+                      "max_priority_fee_per_gas":  "5000000",
+                      "transaction_tag":  null,
+                      "created_contract":  null,
+                      "value":  "0",
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x8F5cB67B49555E614892b7233CFdDEBFB746E531",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "gas_used":  "86050",
+                      "status":  "ok",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "authorization_list":  [
+
+                                             ],
+                      "method":  "transferWithAuthorization",
+                      "fee":  {
+                                  "type":  "actual",
+                                  "value":  "873445529094"
+                              },
+                      "gas_limit":  "95671",
+                      "gas_price":  "10000000",
+                      "decoded_input":  {
+                                            "method_call":  "transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+                                            "method_id":  "e3ee160e",
+                                            "parameters":  [
+                                                               {
+                                                                   "name":  "from",
+                                                                   "type":  "address",
+                                                                   "value":  "0xff949e43a36c86ecec445B23dcF046a9d4E67605"
+                                                               },
+                                                               {
+                                                                   "name":  "to",
+                                                                   "type":  "address",
+                                                                   "value":  "0x67B3E384365662fe3F23A86e9b1ba006062f3E0c"
+                                                               },
+                                                               {
+                                                                   "name":  "value",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1000"
+                                                               },
+                                                               {
+                                                                   "name":  "validAfter",
+                                                                   "type":  "uint256",
+                                                                   "value":  "0"
+                                                               },
+                                                               {
+                                                                   "name":  "validBefore",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1790777144"
+                                                               },
+                                                               {
+                                                                   "name":  "nonce",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xf1e84319d2034ed1be0449e16d408fbd00000000000000000000000000000000"
+                                                               },
+                                                               {
+                                                                   "name":  "v",
+                                                                   "type":  "uint8",
+                                                                   "value":  "27"
+                                                               },
+                                                               {
+                                                                   "name":  "r",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xd7dc2eb58014a869bc1ccb182645799c88122441de52504ca3bc69d55e487303"
+                                                               },
+                                                               {
+                                                                   "name":  "s",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x49b2ef98dd3e630374bc9ee996ed69486c0cfeb5b853eff836313bee8e76d308"
+                                                               }
+                                                           ]
+                                        },
+                      "fhe_operations_count":  0,
+                      "token_transfers":  null,
+                      "base_fee_per_gas":  "5000000",
+                      "timestamp":  "2026-09-30T13:05:46.000000Z",
+                      "nonce":  99075,
+                      "historic_exchange_rate":  null,
+                      "transaction_types":  [
+                                                "contract_call",
+                                                "token_transfer"
+                                            ],
+                      "exchange_rate":  null,
+                      "block_number":  47502629,
+                      "has_error_in_internal_transactions":  false
+                  },
+                  {
+                      "priority_fee":  "430350000000",
+                      "raw_input":  "0xe3ee160e000000000000000000000000ff949e43a36c86ecec445b23dcf046a9d4e6760500000000000000000000000067b3e384365662fe3f23a86e9b1ba006062f3e0c00000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006abd173555dc7526173b4064b4e5b0835099e66a00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001ccacb37032de0bcf7719635b0b65f712758ead5ec7dd8af6089124aaa24df9832717ce7474e11885b1ec92ce1b629d7080b49be9857994ec19ec37c5d0f47164ea161776a6364705f666163696c31000e0280218021802180218021802180218021",
+                      "is_pending_update":  false,
+                      "result":  "success",
+                      "hash":  "0x13fc20c51829fa3180cb09be35081de34db994ea9dd06267a69f2dc218daa4d4",
+                      "max_fee_per_gas":  "30000000",
+                      "revert_reason":  null,
+                      "confirmation_duration":  [
+                                                    0,
+                                                    2000
+                                                ],
+                      "transaction_burnt_fee":  "430350000000",
+                      "type":  2,
+                      "token_transfers_overflow":  null,
+                      "confirmations":  6,
+                      "position":  10,
+                      "max_priority_fee_per_gas":  "5000000",
+                      "transaction_tag":  null,
+                      "created_contract":  null,
+                      "value":  "0",
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x93F6601151cCB08F333AB4B1CCcfb1e188c0bE44",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "gas_used":  "86070",
+                      "status":  "ok",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "authorization_list":  [
+
+                                             ],
+                      "method":  "transferWithAuthorization",
+                      "fee":  {
+                                  "type":  "actual",
+                                  "value":  "872967370593"
+                              },
+                      "gas_limit":  "95693",
+                      "gas_price":  "10000000",
+                      "decoded_input":  {
+                                            "method_call":  "transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+                                            "method_id":  "e3ee160e",
+                                            "parameters":  [
+                                                               {
+                                                                   "name":  "from",
+                                                                   "type":  "address",
+                                                                   "value":  "0xff949e43a36c86ecec445B23dcF046a9d4E67605"
+                                                               },
+                                                               {
+                                                                   "name":  "to",
+                                                                   "type":  "address",
+                                                                   "value":  "0x67B3E384365662fe3F23A86e9b1ba006062f3E0c"
+                                                               },
+                                                               {
+                                                                   "name":  "value",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1000"
+                                                               },
+                                                               {
+                                                                   "name":  "validAfter",
+                                                                   "type":  "uint256",
+                                                                   "value":  "0"
+                                                               },
+                                                               {
+                                                                   "name":  "validBefore",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1790777141"
+                                                               },
+                                                               {
+                                                                   "name":  "nonce",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x55dc7526173b4064b4e5b0835099e66a00000000000000000000000000000000"
+                                                               },
+                                                               {
+                                                                   "name":  "v",
+                                                                   "type":  "uint8",
+                                                                   "value":  "28"
+                                                               },
+                                                               {
+                                                                   "name":  "r",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xcacb37032de0bcf7719635b0b65f712758ead5ec7dd8af6089124aaa24df9832"
+                                                               },
+                                                               {
+                                                                   "name":  "s",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x717ce7474e11885b1ec92ce1b629d7080b49be9857994ec19ec37c5d0f47164e"
+                                                               }
+                                                           ]
+                                        },
+                      "fhe_operations_count":  0,
+                      "token_transfers":  null,
+                      "base_fee_per_gas":  "5000000",
+                      "timestamp":  "2026-09-30T13:05:44.000000Z",
+                      "nonce":  52150,
+                      "historic_exchange_rate":  null,
+                      "transaction_types":  [
+                                                "contract_call",
+                                                "token_transfer"
+                                            ],
+                      "exchange_rate":  null,
+                      "block_number":  47502628,
+                      "has_error_in_internal_transactions":  false
+                  },
+                  {
+                      "priority_fee":  "430350000000",
+                      "raw_input":  "0xe3ee160e000000000000000000000000ff949e43a36c86ecec445b23dcf046a9d4e67605000000000000000000000000bb7bc0b596d471b34f2770e95f93f0ab9596a64900000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006abd173479ec5688278e46d8978ef0c8482ed30f00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001cefa50b57ef488dc74c751588f13e9c30c45ff348a35eea2160f63a41bdce01770d4028a83bb71b1ff4ccd0fde595fe69a998e593474d7cb8e0d92f4ba115208ea161776a6364705f666163696c31000e0280218021802180218021802180218021",
+                      "is_pending_update":  false,
+                      "result":  "success",
+                      "hash":  "0x28be2d28196447c83d3dd32f77e6355d2c6c861834e6d8a459108011f37711c2",
+                      "max_fee_per_gas":  "30000000",
+                      "revert_reason":  null,
+                      "confirmation_duration":  [
+                                                    0,
+                                                    2000
+                                                ],
+                      "transaction_burnt_fee":  "430350000000",
+                      "type":  2,
+                      "token_transfers_overflow":  null,
+                      "confirmations":  7,
+                      "position":  11,
+                      "max_priority_fee_per_gas":  "5000000",
+                      "transaction_tag":  null,
+                      "created_contract":  null,
+                      "value":  "0",
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x8CDA367232d78c067116e3260da881d2da8ffa39",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "gas_used":  "86070",
+                      "status":  "ok",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "authorization_list":  [
+
+                                             ],
+                      "method":  "transferWithAuthorization",
+                      "fee":  {
+                                  "type":  "actual",
+                                  "value":  "872967370593"
+                              },
+                      "gas_limit":  "95693",
+                      "gas_price":  "10000000",
+                      "decoded_input":  {
+                                            "method_call":  "transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+                                            "method_id":  "e3ee160e",
+                                            "parameters":  [
+                                                               {
+                                                                   "name":  "from",
+                                                                   "type":  "address",
+                                                                   "value":  "0xff949e43a36c86ecec445B23dcF046a9d4E67605"
+                                                               },
+                                                               {
+                                                                   "name":  "to",
+                                                                   "type":  "address",
+                                                                   "value":  "0xBB7Bc0b596d471b34F2770E95f93f0AB9596A649"
+                                                               },
+                                                               {
+                                                                   "name":  "value",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1000"
+                                                               },
+                                                               {
+                                                                   "name":  "validAfter",
+                                                                   "type":  "uint256",
+                                                                   "value":  "0"
+                                                               },
+                                                               {
+                                                                   "name":  "validBefore",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1790777140"
+                                                               },
+                                                               {
+                                                                   "name":  "nonce",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x79ec5688278e46d8978ef0c8482ed30f00000000000000000000000000000000"
+                                                               },
+                                                               {
+                                                                   "name":  "v",
+                                                                   "type":  "uint8",
+                                                                   "value":  "28"
+                                                               },
+                                                               {
+                                                                   "name":  "r",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xefa50b57ef488dc74c751588f13e9c30c45ff348a35eea2160f63a41bdce0177"
+                                                               },
+                                                               {
+                                                                   "name":  "s",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x0d4028a83bb71b1ff4ccd0fde595fe69a998e593474d7cb8e0d92f4ba115208e"
+                                                               }
+                                                           ]
+                                        },
+                      "fhe_operations_count":  0,
+                      "token_transfers":  null,
+                      "base_fee_per_gas":  "5000000",
+                      "timestamp":  "2026-09-30T13:05:42.000000Z",
+                      "nonce":  52431,
+                      "historic_exchange_rate":  null,
+                      "transaction_types":  [
+                                                "contract_call",
+                                                "token_transfer"
+                                            ],
+                      "exchange_rate":  null,
+                      "block_number":  47502627,
+                      "has_error_in_internal_transactions":  false
+                  },
+                  {
+                      "priority_fee":  "430350000000",
+                      "raw_input":  "0xe3ee160e000000000000000000000000ff949e43a36c86ecec445b23dcf046a9d4e6760500000000000000000000000067b3e384365662fe3f23a86e9b1ba006062f3e0c00000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006abd172dda5b7977e7d34d1e8c56325a1c36ffda00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001c83e5bad24c8da59fdd07698bbc52d228cd6b9d656eb9d5438b6f825c11d922f012bd4a0d8aace42e5a7c48cd435d01261ea05d56562925b2bc0f0832d51d3a07a161776a6364705f666163696c31000e0280218021802180218021802180218021",
+                      "is_pending_update":  false,
+                      "result":  "success",
+                      "hash":  "0x5955c35d4985059929c2a641cc08c1af5ebd1763aed4e32ad52bff3885cea210",
+                      "max_fee_per_gas":  "30000000",
+                      "revert_reason":  null,
+                      "confirmation_duration":  [
+                                                    0,
+                                                    2000
+                                                ],
+                      "transaction_burnt_fee":  "430350000000",
+                      "type":  2,
+                      "token_transfers_overflow":  null,
+                      "confirmations":  9,
+                      "position":  20,
+                      "max_priority_fee_per_gas":  "5000000",
+                      "transaction_tag":  null,
+                      "created_contract":  null,
+                      "value":  "0",
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0xE72f0Af4CF41356d433723547F1412cA27FBB1B8",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "gas_used":  "86070",
+                      "status":  "ok",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "authorization_list":  [
+
+                                             ],
+                      "method":  "transferWithAuthorization",
+                      "fee":  {
+                                  "type":  "actual",
+                                  "value":  "872967370593"
+                              },
+                      "gas_limit":  "95693",
+                      "gas_price":  "10000000",
+                      "decoded_input":  {
+                                            "method_call":  "transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+                                            "method_id":  "e3ee160e",
+                                            "parameters":  [
+                                                               {
+                                                                   "name":  "from",
+                                                                   "type":  "address",
+                                                                   "value":  "0xff949e43a36c86ecec445B23dcF046a9d4E67605"
+                                                               },
+                                                               {
+                                                                   "name":  "to",
+                                                                   "type":  "address",
+                                                                   "value":  "0x67B3E384365662fe3F23A86e9b1ba006062f3E0c"
+                                                               },
+                                                               {
+                                                                   "name":  "value",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1000"
+                                                               },
+                                                               {
+                                                                   "name":  "validAfter",
+                                                                   "type":  "uint256",
+                                                                   "value":  "0"
+                                                               },
+                                                               {
+                                                                   "name":  "validBefore",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1790777133"
+                                                               },
+                                                               {
+                                                                   "name":  "nonce",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xda5b7977e7d34d1e8c56325a1c36ffda00000000000000000000000000000000"
+                                                               },
+                                                               {
+                                                                   "name":  "v",
+                                                                   "type":  "uint8",
+                                                                   "value":  "28"
+                                                               },
+                                                               {
+                                                                   "name":  "r",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x83e5bad24c8da59fdd07698bbc52d228cd6b9d656eb9d5438b6f825c11d922f0"
+                                                               },
+                                                               {
+                                                                   "name":  "s",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x12bd4a0d8aace42e5a7c48cd435d01261ea05d56562925b2bc0f0832d51d3a07"
+                                                               }
+                                                           ]
+                                        },
+                      "fhe_operations_count":  0,
+                      "token_transfers":  null,
+                      "base_fee_per_gas":  "5000000",
+                      "timestamp":  "2026-09-30T13:05:38.000000Z",
+                      "nonce":  57595,
+                      "historic_exchange_rate":  null,
+                      "transaction_types":  [
+                                                "contract_call",
+                                                "token_transfer"
+                                            ],
+                      "exchange_rate":  null,
+                      "block_number":  47502625,
+                      "has_error_in_internal_transactions":  false
+                  },
+                  {
+                      "priority_fee":  "430350000000",
+                      "raw_input":  "0xe3ee160e000000000000000000000000ff949e43a36c86ecec445b23dcf046a9d4e6760500000000000000000000000067b3e384365662fe3f23a86e9b1ba006062f3e0c00000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006abd172e90b98382c47c48a7ba65b492447c494600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001ca0cd01b1f390ef6220dbafc57983ad2228d5eb4cb98e9554e5275b84f352bc3d76608154ab6d5c35855763108b972c2f41786005407c357d5b8ea5439095da03a161776a6364705f666163696c31000e0280218021802180218021802180218021",
+                      "is_pending_update":  false,
+                      "result":  "success",
+                      "hash":  "0x8ccb2342e673adf8fa126e56a16d7789354fae0402677db11e7a51b5b8e9ea60",
+                      "max_fee_per_gas":  "30000000",
+                      "revert_reason":  null,
+                      "confirmation_duration":  [
+                                                    0,
+                                                    2000
+                                                ],
+                      "transaction_burnt_fee":  "430350000000",
+                      "type":  2,
+                      "token_transfers_overflow":  null,
+                      "confirmations":  10,
+                      "position":  19,
+                      "max_priority_fee_per_gas":  "5000000",
+                      "transaction_tag":  null,
+                      "created_contract":  null,
+                      "value":  "0",
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x42dd53906B49c202E8E934b059dc019E04634b00",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "gas_used":  "86070",
+                      "status":  "ok",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "authorization_list":  [
+
+                                             ],
+                      "method":  "transferWithAuthorization",
+                      "fee":  {
+                                  "type":  "actual",
+                                  "value":  "872967370593"
+                              },
+                      "gas_limit":  "95693",
+                      "gas_price":  "10000000",
+                      "decoded_input":  {
+                                            "method_call":  "transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+                                            "method_id":  "e3ee160e",
+                                            "parameters":  [
+                                                               {
+                                                                   "name":  "from",
+                                                                   "type":  "address",
+                                                                   "value":  "0xff949e43a36c86ecec445B23dcF046a9d4E67605"
+                                                               },
+                                                               {
+                                                                   "name":  "to",
+                                                                   "type":  "address",
+                                                                   "value":  "0x67B3E384365662fe3F23A86e9b1ba006062f3E0c"
+                                                               },
+                                                               {
+                                                                   "name":  "value",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1000"
+                                                               },
+                                                               {
+                                                                   "name":  "validAfter",
+                                                                   "type":  "uint256",
+                                                                   "value":  "0"
+                                                               },
+                                                               {
+                                                                   "name":  "validBefore",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1790777134"
+                                                               },
+                                                               {
+                                                                   "name":  "nonce",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x90b98382c47c48a7ba65b492447c494600000000000000000000000000000000"
+                                                               },
+                                                               {
+                                                                   "name":  "v",
+                                                                   "type":  "uint8",
+                                                                   "value":  "28"
+                                                               },
+                                                               {
+                                                                   "name":  "r",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xa0cd01b1f390ef6220dbafc57983ad2228d5eb4cb98e9554e5275b84f352bc3d"
+                                                               },
+                                                               {
+                                                                   "name":  "s",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x76608154ab6d5c35855763108b972c2f41786005407c357d5b8ea5439095da03"
+                                                               }
+                                                           ]
+                                        },
+                      "fhe_operations_count":  0,
+                      "token_transfers":  null,
+                      "base_fee_per_gas":  "5000000",
+                      "timestamp":  "2026-09-30T13:05:36.000000Z",
+                      "nonce":  53263,
+                      "historic_exchange_rate":  null,
+                      "transaction_types":  [
+                                                "contract_call",
+                                                "token_transfer"
+                                            ],
+                      "exchange_rate":  null,
+                      "block_number":  47502624,
+                      "has_error_in_internal_transactions":  false
+                  },
+                  {
+                      "priority_fee":  "430250000000",
+                      "raw_input":  "0xe3ee160e0000000000000000000000000f1e5f444e54cf6fc4171b5d7cbf37a1d78672e0000000000000000000000000df3941c38230171d711c3ed715c59fef417964b900000000000000000000000000000000000000000000000000000000000003e80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006abd172e98a70a5adc294e21a8e7476db32e147e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001bd6e86f82a0ce7c710c75d15ee57122fc2b6c67dc3067a9d5c3d61a0261ebc5c0792b72f883d6ca19c5640944ac26cd588d293b1ad79d7737706e8dafc6b3095ba161776a6364705f666163696c31000e0280218021802180218021802180218021",
+                      "is_pending_update":  false,
+                      "result":  "success",
+                      "hash":  "0xd4c3051c8b8baa148924e395c0d9c424c05fcfa5834022f43597627f5030d632",
+                      "max_fee_per_gas":  "30000000",
+                      "revert_reason":  null,
+                      "confirmation_duration":  [
+                                                    0,
+                                                    2000
+                                                ],
+                      "transaction_burnt_fee":  "430250000000",
+                      "type":  2,
+                      "token_transfers_overflow":  null,
+                      "confirmations":  10,
+                      "position":  18,
+                      "max_priority_fee_per_gas":  "5000000",
+                      "transaction_tag":  null,
+                      "created_contract":  null,
+                      "value":  "0",
+                      "from":  {
+                                   "ens_domain_name":  null,
+                                   "hash":  "0x2A89407a98A0732b7fD578c4E156B7166540EB5A",
+                                   "implementations":  [
+
+                                                       ],
+                                   "is_contract":  false,
+                                   "is_scam":  false,
+                                   "is_verified":  false,
+                                   "metadata":  null,
+                                   "name":  null,
+                                   "private_tags":  [
+
+                                                    ],
+                                   "proxy_type":  null,
+                                   "public_tags":  [
+
+                                                   ],
+                                   "reputation":  "ok",
+                                   "watchlist_names":  [
+
+                                                       ]
+                               },
+                      "gas_used":  "86050",
+                      "status":  "ok",
+                      "to":  {
+                                 "ens_domain_name":  null,
+                                 "hash":  "0x036CbD53842c5426634e7929541eC2318f3dCF7e",
+                                 "implementations":  [
+                                                         {
+                                                             "address_hash":  "0xd74cc5d436923b8ba2c179b4bCA2841D8A52C5B5",
+                                                             "name":  "FiatTokenV2_2"
+                                                         }
+                                                     ],
+                                 "is_contract":  true,
+                                 "is_scam":  false,
+                                 "is_verified":  true,
+                                 "metadata":  null,
+                                 "name":  "FiatTokenProxy",
+                                 "private_tags":  [
+
+                                                  ],
+                                 "proxy_type":  "eip1967_oz",
+                                 "public_tags":  [
+
+                                                 ],
+                                 "reputation":  "ok",
+                                 "watchlist_names":  [
+
+                                                     ]
+                             },
+                      "authorization_list":  [
+
+                                             ],
+                      "method":  "transferWithAuthorization",
+                      "fee":  {
+                                  "type":  "actual",
+                                  "value":  "872767370593"
+                              },
+                      "gas_limit":  "95671",
+                      "gas_price":  "10000000",
+                      "decoded_input":  {
+                                            "method_call":  "transferWithAuthorization(address from, address to, uint256 value, uint256 validAfter, uint256 validBefore, bytes32 nonce, uint8 v, bytes32 r, bytes32 s)",
+                                            "method_id":  "e3ee160e",
+                                            "parameters":  [
+                                                               {
+                                                                   "name":  "from",
+                                                                   "type":  "address",
+                                                                   "value":  "0x0f1E5F444E54cf6fc4171B5D7Cbf37A1D78672E0"
+                                                               },
+                                                               {
+                                                                   "name":  "to",
+                                                                   "type":  "address",
+                                                                   "value":  "0xdf3941C38230171D711c3eD715C59Fef417964b9"
+                                                               },
+                                                               {
+                                                                   "name":  "value",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1000"
+                                                               },
+                                                               {
+                                                                   "name":  "validAfter",
+                                                                   "type":  "uint256",
+                                                                   "value":  "0"
+                                                               },
+                                                               {
+                                                                   "name":  "validBefore",
+                                                                   "type":  "uint256",
+                                                                   "value":  "1790777134"
+                                                               },
+                                                               {
+                                                                   "name":  "nonce",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x98a70a5adc294e21a8e7476db32e147e00000000000000000000000000000000"
+                                                               },
+                                                               {
+                                                                   "name":  "v",
+                                                                   "type":  "uint8",
+                                                                   "value":  "27"
+                                                               },
+                                                               {
+                                                                   "name":  "r",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0xd6e86f82a0ce7c710c75d15ee57122fc2b6c67dc3067a9d5c3d61a0261ebc5c0"
+                                                               },
+                                                               {
+                                                                   "name":  "s",
+                                                                   "type":  "bytes32",
+                                                                   "value":  "0x792b72f883d6ca19c5640944ac26cd588d293b1ad79d7737706e8dafc6b3095b"
+                                                               }
+                                                           ]
+                                        },
+                      "fhe_operations_count":  0,
+                      "token_transfers":  null,
+                      "base_fee_per_gas":  "5000000",
+                      "timestamp":  "2026-09-30T13:05:36.000000Z",
+                      "nonce":  53594,
+                      "historic_exchange_rate":  null,
+                      "transaction_types":  [
+                                                "contract_call",
+                                                "token_transfer"
+                                            ],
+                      "exchange_rate":  null,
+                      "block_number":  47502624,
+                      "has_error_in_internal_transactions":  false
+                  }
+              ],
+    "next_page_params":  {
+                             "index":  16,
+                             "value":  "0",
+                             "hash":  "0xf670395754960c14576586d5c067bc65331b8d9a000185fa912e2eb67f00a438",
+                             "inserted_at":  "2026-09-30T13:04:36.229703Z",
+                             "block_number":  47502594,
+                             "fee":  "873082752924",
+                             "items_count":  50
+                         }
+}
